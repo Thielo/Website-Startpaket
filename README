@@ -21,3 +21,8 @@ Other
 	CHANGELOG:
 	-	VERSION 1
 	-	added: all Basic files.
+	
+	-	VERSION 2
+	-	added: $(document).ready function added to script.js
+	-	added: htaccess File
+	-	fixed:
