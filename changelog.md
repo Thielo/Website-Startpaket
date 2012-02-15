@@ -15,3 +15,8 @@
 - added: typography.css
 - updated: the Javascript to jQuery 1.7.1
 - updated: HTML-Code has now a sticky-footer
+
+
+### 0.3  |  02.01.2012
+- updated: Changed Clearfix to a new Version
+- added: Added a .hide CSS-Rule

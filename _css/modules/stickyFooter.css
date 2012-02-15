@@ -9,7 +9,7 @@ body > #stickyWrap {
 
 #stickyMain { padding-bottom: 313px }
 
-some_nowhitespace { nowhitespace: afterproperty }
+.some_nowhitespace { nowhitespace: afterproperty }
 
 /* padding-bottom needs  to be equal height of #footer  */
 

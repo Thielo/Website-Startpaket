@@ -53,3 +53,5 @@ hr.clear {
 .relative { position: relative }
 
 .absolute { position: absolute }
+
+.hide { position: absolute; top: -9999px; left: -9999px }

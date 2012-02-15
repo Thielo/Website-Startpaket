@@ -99,21 +99,6 @@ table {
 /* CLEAR FIX
    ================================================== */
 
-.clearfix:after,
-.cf:after {
-    content: ".";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
-}
-
-.clearfix,
-.cf { display: inline-block }
-
-* html .clearfix,
-.cf { height: 1% }
-
-.clearfix,
-.cf { display: block }
-
+.cf:before, .cf:after { content:""; display:table; }
+.cf:after { clear:both; }
+.cf { zoom:1; }
