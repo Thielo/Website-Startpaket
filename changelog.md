@@ -20,3 +20,7 @@
 ### 0.3  |  02.01.2012
 - updated: Changed Clearfix to a new Version
 - added: Added a .hide CSS-Rule
+
+### 0.4  |  05.04.2012
+- added: Added the .horizontal-rule for floated lists
+- changed: Changed the .unstyled CSS-rule
