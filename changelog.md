@@ -24,3 +24,7 @@
 ### 0.4  |  05.04.2012
 - added: Added the .horizontal-rule for floated lists
 - changed: Changed the .unstyled CSS-rule
+
+### 0.5 | 23.07.2012
+- Renewed the whole System
+- minimized
