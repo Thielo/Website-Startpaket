@@ -6,13 +6,6 @@ A **Quickstarter-Pack** for *web developers*.
 
 ### Usage
 
-#### delete.me-Files
-
-First of all, you can delete all Files in this folders an replace them with your own stuff.
-
-In everey **delete.me** file you find a short introduction what kind of files you need in this folder.
-
-
 #### Folders
 
 ##### _cdn
@@ -33,7 +26,7 @@ In this folder you can store all styling Images *(e.g. like backgrounds, logos a
 
 ##### _js
 
-In this folder you find a local copy of *jQuery 1.7.1* (<http://www.jquery.com/>) and an empty *script.js*-file
+In this folder you find a local copy of *jQuery 1.8.3* (<http://www.jquery.com/>) and an empty *script.js*-file
 
 ##### _inc
 

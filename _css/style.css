@@ -1,6 +1,6 @@
 @charset "utf-8";
+/* reset.css is now a version with an Twitter-Bootstrap Part */
+/* basic.css includes now the sticky Footer */
 @import url('modules/reset.css');
 @import url('modules/basic.css');
-@import url('modules/typography.css');
-@import url('modules/stickyFooter.css');
-/* insert here other import CSS-Files */
+/* insert here other import CSS-Files and below write your own CSS*/

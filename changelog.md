@@ -24,3 +24,13 @@
 ### 0.4  |  05.04.2012
 - added: Added the .horizontal-rule for floated lists
 - changed: Changed the .unstyled CSS-rule
+
+### 0.5 | 03.12.2012
+- changed: New jQuery-Version 1.8.3
+- changed: All new CSS
+			- reset.css includes now the basic Twitter Bootstrap CSS (Buttons, Reset, Typo, Forms)
+			- basic.css includes now the sticky footer and some random CSS-Formats
+- changed: renamed "index.html" to start.html
+- changed: <html>-Tag does no longer include old-IE-classes (but the <body>-Tag no does)
+- deleted: removed all ".delete" files
+- deleted: removed chrome-frame in start.html
