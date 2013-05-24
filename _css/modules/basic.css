@@ -27,11 +27,9 @@ ul.horizontal li { float: left }
 
 .noBorder, .noBorder img { border: 0 !important }
 
-.left { float: left !important }
+.left, .pull-left { float: left !important }
 
-.right { float: right !important }
-
-.clear { clear: both !important }
+.right, .pull-right { float: right !important }
 
 .alignLeft { text-align: left }
 
@@ -64,14 +62,12 @@ body > #stickyWrap {
     min-height: 100%;
 }
 
-#stickyMain { padding-bottom: 313px }
-
-.some_nowhitespace { nowhitespace: afterproperty }
+#stickyMain { padding-bottom: xxxpx }
 
 /* padding-bottom needs  to be equal height of #footer  */
 
 #footer {
-    margin-top: -313px; /* Negativer Wert der Footer-Höhe */
-    height: 313px;
+    margin-top: -xxxpx; /* Negativer Wert der Footer-Höhe */
+    height: xxxpx;
 }
 

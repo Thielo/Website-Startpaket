@@ -34,3 +34,10 @@
 - changed: <html>-Tag does no longer include old-IE-classes (but the <body>-Tag no does)
 - deleted: removed all ".delete" files
 - deleted: removed chrome-frame in start.html
+
+### 0.6 | 24.05.2013
+- changed: New jQuery-Version 1.9.1
+- changed: 	- reset.css Other Bootstrap-Basics
+			- basic.css New Float Rules
+- changed: renamed "index.html" to start.html
+
