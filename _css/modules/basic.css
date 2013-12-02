@@ -45,6 +45,8 @@ ul.horizontal li { float: left }
     clip: rect(1px, 1px, 1px, 1px);
 }
 
+.fixed { position: fixed }
+
 .relative { position: relative }
 
 .absolute { position: absolute }
@@ -52,22 +54,3 @@ ul.horizontal li { float: left }
 .lastInRow { clear: right !important; }
 
 .hide { position: absolute; top: -9999px; left: -9999px; }
-
-
-/* Sticky Footer */
-html, body, #stickyWrap { height: 100% }
-
-body > #stickyWrap {
-    height: auto;
-    min-height: 100%;
-}
-
-#stickyMain { padding-bottom: xxxpx }
-
-/* padding-bottom needs  to be equal height of #footer  */
-
-#footer {
-    margin-top: -xxxpx; /* Negativer Wert der Footer-Höhe */
-    height: xxxpx;
-}
-

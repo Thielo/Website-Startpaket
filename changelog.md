@@ -41,3 +41,7 @@
 			- basic.css New Float Rules
 - changed: renamed "index.html" to start.html
 
+
+### 0.7 | 02.12.2013
+- changed: New jQuery-Version 2.0.3
+- changed: New Bootstrap 3.0 Core implemented and slightly changed
