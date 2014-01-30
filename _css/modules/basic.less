@@ -1,0 +1,86 @@
+/* LESS-Functions */
+@import "libs/mixins.less"; /* mixins */
+@import "libs/component-animations.less"; /* animations */
+
+/* Basic CSS */
+ul, ol {
+    &.unstyled, &.horizontal {
+        list-style: none;
+    }
+    &.horizontal {
+        .clearfix();
+        &> li {
+            float: left;
+        }
+    }
+}
+
+.wrapper {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.noSelect {
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.rounded {
+    .border-radius();
+}
+
+.noBorder,
+.noBorder img {
+    border: 0 !important;
+}
+
+.left,
+.pull-left {
+    float: left !important;
+}
+
+.right,
+.pull-right {
+    float: right !important;
+}
+
+.alignLeft {
+    text-align: left;
+}
+
+.alignCenter {
+    text-align: center;
+}
+
+.alignRight {
+    text-align: right;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.lastInRow {
+    clear: right !important;
+}
+
+.hide {
+    position: absolute; top: -9999px; left: -9999px;
+}
+
+.hideForViewer {
+    position: absolute;
+    left: -9999em;
+    top: -9999em;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+}

@@ -1,56 +1,106 @@
-ul.unstyled, ol.unstyled {
-    list-style: none;
-    margin-left: 0;
+/* LESS-Functions */
+/* mixins */
+.fade {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
 }
-ul.horizontal {
-    list-style: none;
-    margin: 0;
+.fade.in {
+  opacity: 1;
 }
-ul.horizontal li { float: left }
-
+.collapse {
+  display: none;
+}
+.collapse.in {
+  display: block;
+}
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 0.35s ease;
+  transition: height 0.35s ease;
+}
+/* animations */
+/* Basic CSS */
+ul.unstyled,
+ol.unstyled,
+ul.horizontal,
+ol.horizontal {
+  list-style: none;
+}
+ul.horizontal:before,
+ol.horizontal:before,
+ul.horizontal:after,
+ol.horizontal:after {
+  content: " ";
+  display: table;
+}
+ul.horizontal:after,
+ol.horizontal:after {
+  clear: both;
+}
+ul.horizontal > li,
+ol.horizontal > li {
+  float: left;
+}
 .wrapper {
-    width: 940px;
-    margin: 0 auto;
+  width: 940px;
+  margin: 0 auto;
 }
-
 .noSelect {
-    -moz-user-select: -moz-none;
-    -webkit-user-select: none;
-    user-select: none;
+  -moz-user-select: -moz-none;
+  -webkit-user-select: none;
+  user-select: none;
 }
-
 .rounded {
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
 }
-
-.noBorder, .noBorder img { border: 0 !important }
-
-.left, .pull-left { float: left !important }
-
-.right, .pull-right { float: right !important }
-
-.alignLeft { text-align: left }
-
-.alignCenter { text-align: center }
-
-.alignRight { text-align: right }
-
+.noBorder,
+.noBorder img {
+  border: 0 !important;
+}
+.left,
+.pull-left {
+  float: left !important;
+}
+.right,
+.pull-right {
+  float: right !important;
+}
+.alignLeft {
+  text-align: left;
+}
+.alignCenter {
+  text-align: center;
+}
+.alignRight {
+  text-align: right;
+}
+.fixed {
+  position: fixed;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.lastInRow {
+  clear: right !important;
+}
+.hide {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
 .hideForViewer {
-    position: absolute;
-    left: -9999em;
-    top: -9999em;
-    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-    clip: rect(1px, 1px, 1px, 1px);
+  position: absolute;
+  left: -9999em;
+  top: -9999em;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+
+  clip: rect(1px, 1px, 1px, 1px);
 }
-
-.fixed { position: fixed }
-
-.relative { position: relative }
-
-.absolute { position: absolute }
-
-.lastInRow { clear: right !important; }
-
-.hide { position: absolute; top: -9999px; left: -9999px; }

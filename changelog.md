@@ -45,3 +45,9 @@
 ### 0.7 | 02.12.2013
 - changed: New jQuery-Version 2.0.3
 - changed: New Bootstrap 3.0 Core implemented and slightly changed
+
+### 0.8 | 30.01.2014
+- changed: New jQuery-Version 2.1.0
+- changed: script.js now with less errors on standard wordpress-include
+- new: basic.css - based on basic.less
+- new: mixins.less | component-animations.less
