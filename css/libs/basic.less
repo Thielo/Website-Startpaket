@@ -1,6 +1,6 @@
 /* LESS-Functions */
-@import "libs/mixins.less"; /* mixins */
-@import "libs/component-animations.less"; /* animations */
+@import "mixins.less"; /* mixins */
+@import "component-animations.less"; /* animations */
 
 /* Basic CSS */
 ul, ol {
@@ -26,6 +26,7 @@ ul, ol {
     user-select: none;
 }
 
+/* 5px border radius */
 .rounded {
     .border-radius();
 }
@@ -71,16 +72,4 @@ ul, ol {
 
 .lastInRow {
     clear: right !important;
-}
-
-.hide {
-    position: absolute; top: -9999px; left: -9999px;
-}
-
-.hideForViewer {
-    position: absolute;
-    left: -9999em;
-    top: -9999em;
-    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-    clip: rect(1px, 1px, 1px, 1px);
 }

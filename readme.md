@@ -8,15 +8,13 @@ A **Quickstarter-Pack** for *web developers*.
 
 #### Folders
 
-##### _css
+##### css
 
-In this folder you can manage the styling of the page.
+Place all your CSS-Files here (and maybe all Webfont-Files)
 
-* In the subfolder **_modules* you can place all intern CSS-files *(e.g. header.css, footer.css)*
+##### js
 
-##### _js
-
-In this folder you find a local copy of *jQuery 1.9.1* (<http://www.jquery.com/>) and an empty *script.js*-file
+In this folder you find a local copy of *jQuery v2.1.0* (<http://www.jquery.com/>) and an *script.js*-file with minimal jQuery-Code
 
 ### And more?
 
