@@ -1,0 +1,12 @@
+@import url('libs/bootstrap.css');
+@charset "utf-8";
+.fade{opacity:0;-webkit-transition:opacity .15s linear;-o-transition:opacity .15s linear;transition:opacity .15s linear}.fade.in{opacity:1}
+.collapse{display:none}.collapse.in{display:block}
+tr.collapse.in{display:table-row}
+tbody.collapse.in{display:table-row-group}
+.collapsing{position:relative;height:0;overflow:hidden;-webkit-transition:height .35s ease;-o-transition:height .35s ease;transition:height .35s ease}
+ul.horizontal,ol.horizontal{list-style:none;margin:0;padding:0}ul.horizontal:before,ol.horizontal:before,ul.horizontal:after,ol.horizontal:after{content:" ";display:table}
+ul.horizontal:after,ol.horizontal:after{clear:both}
+ul.horizontal>li,ol.horizontal>li{float:left}
+.wrapper{max-width:940px;margin:0 auto}
+.noSelect{-moz-user-select:-moz-none;-webkit-user-select:none;user-select:none}

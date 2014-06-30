@@ -8,13 +8,18 @@ A **Quickstarter-Pack** for *web developers*.
 
 #### Folders
 
-##### css
+##### assets
 
-Place all your CSS-Files here (and maybe all Webfont-Files)
+Contains Folders for JS, CSS and other Stuff
 
-##### js
+###### css
 
-In this folder you find a local copy of *jQuery v2.1.0* (<http://www.jquery.com/>) and an *script.js*-file with minimal jQuery-Code
+Place all your CSS-Files here
+This Toolkit Supports a customized Version of *Bootstrap 3.2* with just the basics stylings, no components
+
+###### js
+
+In this folder you find a local copy of *jQuery v1.11.1* (<http://www.jquery.com/>), a local copy of *Modernizr 2.8.2* and a *script.js*-file with minimal jQuery-Code
 
 ### And more?
 
