@@ -1,0 +1,30 @@
+/**
+ * Definitions
+ */
+
+
+/* Colors */
+@color_black: #000000;
+
+
+
+/* BREAKPOINTS */
+@desktop_small:     ~"only screen and (max-width: 1080px)";
+@tablet_landscape:  ~"only screen and (min-width: 950px) and (max-width: 1199px)";
+@tablet_portrait:   ~"only screen and (min-width: 641px) and (max-width: 949px)";
+@smartphone:        ~"only screen and (max-width: 640px)";
+@smartphone_small:  ~"only screen and (max-width: 350px)";
+
+
+
+/* Fonts */
+@fontstack_name: Helvetica, Arial, sans-serif;
+.font(@frontweight: 400, @fontstack: @fontstack_name) {
+    font-family: @fontstack;
+    font-weight: @frontweight;
+}
+
+/* Typography */
+@baseFontSize: 16;
+@baseLineHeight: 5;
+

@@ -1,6 +1,12 @@
 # Website-Starterpack
 
 ## CHANGELOG:
+### 1.1 | 26.11.2014
+No more Bootstrap
+- changed: modernizr.js updated to v2.8.3
+- changed: jquery.js updated to v2.1.1
+- changed: no more remove of class "no-js" in script.js
+- changed: revisited
 
 ### 1.0 | 30.06.2014
 Reworked many things
