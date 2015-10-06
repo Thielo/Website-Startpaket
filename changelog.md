@@ -1,12 +1,18 @@
 # Website-Starterpack
 
 ## CHANGELOG:
+
+### 1.5 | 06.10.2015
+Gulp it like its hot
+- new: gulp'n'stuff
+-- Notice: Script compiling is not yet implemented in the gulpfile.js
+- changed: beside of less we have now sass too!
+
 ### 1.1 | 26.11.2014
 No more Bootstrap
 - changed: modernizr.js updated to v2.8.3
 - changed: jquery.js updated to v2.1.1
 - changed: no more remove of class "no-js" in script.js
-- changed: revisited
 
 ### 1.0 | 30.06.2014
 Reworked many things

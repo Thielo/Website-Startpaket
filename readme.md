@@ -5,21 +5,16 @@
 A **Quickstarter-Pack** for *web developers*.
 
 ### Usage
+This Repo uses Gulp to compile everything.
+In addition to Live-Reload.
 
 #### Folders
 
-##### assets
+##### dist
+Later here will appear your compiled CSS and JS files and your minified Images
 
-Contains Folders for JS, CSS and other Stuff
-
-###### css
-
-Place all your CSS-Files here
-This Toolkit Supports a customized Version of *Bootstrap 3.2* with just the basics stylings, no components
-
-###### js
-
-In this folder you find a local copy of *jQuery v1.11.1* (<http://www.jquery.com/>), a local copy of *Modernizr 2.8.2* and a *script.js*-file with minimal jQuery-Code
+###### assets
+In this Folder we have all our Source Files.
 
 ### And more?
 
